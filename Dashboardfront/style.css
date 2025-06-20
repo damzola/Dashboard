@@ -6,16 +6,39 @@ h1 {
   background-color: #008080;
   border-radius: 12px;
   color: #fff;
-  font-weight: bold; }
+  font-weight: bold;
+  transition: 0.6s; }
 
 .button:hover {
   background-color: #007680;
+  transform: scale(1.05);
+  box-shadow: 0px 8px 24px rgba(0, 207, 200, 0.4);
   color: #fff; }
+
+.scroll-bar {
+  overflow-x: scroll;
+  width: none;
+  white-space: nowrap; }
+
+.scroll-bar::-webkit-scrollbar {
+  display: none; }
+
+.scroll-bar {
+  scrollbar-width: none; }
 
 .module-home {
   margin: 200px auto;
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.module-scroll-bar {
+  cursor: pointer;
+  transition: 0.6s;
+  background-color: #efede135; }
+
+.module-scroll-bar:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 24px rgba(165, 166, 166, 0.491); }
 
 /*# sourceMappingURL=style.css.map */

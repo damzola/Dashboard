@@ -3,6 +3,19 @@
     border-radius: 12px
     color: #fff
     font-weight: bold
+    transition: .6s
 .button:hover
     background-color: rgb(0, 118, 128)
+    transform: scale(1.05)
+    box-shadow: 0px 8px 24px rgba(0,207,200,0.4)
     color: #fff
+.scroll-bar
+    overflow-x: scroll
+    width: none
+    white-space: nowrap
+    //chrome, safari
+.scroll-bar::-webkit-scrollbar
+    display: none
+    //firefox
+.scroll-bar
+    scrollbar-width: none
