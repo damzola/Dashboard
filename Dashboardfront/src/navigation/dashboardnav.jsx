@@ -12,7 +12,7 @@ export default function dashboardnav() {
         <div className="d-flex bg-white shadow-lg rounded-start-4">
           {/* Sidebar (Visible on lg and up) */}
           <div
-            className="shadow-lg p-3 position-sticky top-0 vh-100  overflow-y-auto z-50 rounded-start-4"
+            className=" d-none d-sm-block p-3 position-sticky top-0 vh-100  overflow-y-auto z-50 rounded-start-4"
             style={{
               width: "20%",
               height: "100vh",
@@ -20,9 +20,11 @@ export default function dashboardnav() {
             }}
           >
             {/* <Logo/> */}
+            <Link to="/">     
             <h5 className="text-light fw-bolder text-decoration-underline text-center ">
               Admin Dash
             </h5>
+            </Link>
 
             <ul className="list-unstyled p-2">
               <li className="mb-3 d-flex gap-2">
@@ -79,7 +81,7 @@ export default function dashboardnav() {
             style={{ width: "80%" }}
             className="flex-grow-1 p-4 position-relative justify-content-center align-items-center text-center "
           >
-            {/* <p className=" text-center d-lg-none alert alert-danger ">Admin panel show better on a bigger screens!</p> */}
+           
             <main>
               <Outlet />
             </main>

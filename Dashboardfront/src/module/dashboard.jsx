@@ -30,6 +30,11 @@ export default function Dashboard() {
     { month: "May", visits: 60 },
     { month: "Jun", visits: 100 },
     { month: "Jul", visits: 200 },
+    { month: "Mar", visits: 40 },
+    { month: "Apr", visits: 70 },
+    { month: "May", visits: 60 },
+    { month: "Jun", visits: 100 },
+    { month: "Jul", visits: 200 },
   ];
 
   //LINE CHART GRAPH
