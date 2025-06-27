@@ -101,10 +101,10 @@ export default function Dashboard() {
       </div>
 
       <div className="row justify-content-center align-content-center h-100">
-        <div className="col-lg-6 col-md-6 col-sm-12 bg-light">
+        <div className="col-lg-6 col-md-6 bg-light">
           <div className="bg-white p-3 rounded-4 shadow-sm">
             <h5 className="text-start mb-3">Monthly Visits</h5>
-            <ResponsiveContainer width="100%" height={300}>
+            <ResponsiveContainer width="100%" height={200}>
               <BarChart data={value}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
@@ -121,10 +121,10 @@ export default function Dashboard() {
             </ResponsiveContainer>
           </div>
         </div>
-        <div className="col-lg-6 col-md-12 p-3">
+        <div className="col-lg-6 col-md-6 p-3">
           <div className="bg-white shadow rounded-4 p-3">
             <h5 className="text-start mb-3">Monthly Performace</h5>
-            <ResponsiveContainer width="100%" height={300}>
+            <ResponsiveContainer width="100%" height={200}>
               <LineChart
                 width={400}
                 height={400}

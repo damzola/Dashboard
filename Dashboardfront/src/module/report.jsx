@@ -3,7 +3,6 @@ import {
   ResponsiveContainer,
   LineChart,
   Line,
-  YAxis,
   XAxis,
   PieChart,
   Pie,
